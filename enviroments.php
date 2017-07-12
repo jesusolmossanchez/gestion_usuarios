@@ -91,6 +91,16 @@ $entornos->setEnv (		'localhost', // Dominio
 						'gestion_usuarios' // Nombre Base de datos
 );
 
+$entornos->setEnv (		'188.166.12.42', // Dominio
+						'http://188.166.12.42/gestion_usuarios/', // URL
+						false, // CDN
+						'local', // Tipo (local, development, testing, production)
+						'localhost', // Host Base de datos
+						'root', // Usuario Base de datos
+						'Paranoya23', // Contraseña Base de datos
+						'gestion_usuarios' // Nombre Base de datos
+);
+
 /*******************************************************************************/
 /********************************* Development *********************************/
 /*******************************************************************************/
